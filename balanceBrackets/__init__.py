@@ -16,7 +16,7 @@ def balanceBrackets(brackets):
     if len(stack) == 0:
         return "balance"
     
-    # return "unbalance"
+    return "unbalance"
 
 def isOpen(bracket):
     openBracket = ["[","(","{"]
