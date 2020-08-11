@@ -31,8 +31,8 @@ def isPair(x, y):
         return True
     elif x == "(" and y == ")":
         return True
-
-    return False
+    else:
+        return False
 
 
 if __name__ == "__main__":
